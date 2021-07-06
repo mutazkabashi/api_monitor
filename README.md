@@ -23,6 +23,8 @@ _________________________________________________________________________
 _Run the following commands:_
 
 Step1: Execute the sql script file (kry.sql) to create the database schema; 
+NOTE:- database username=root and password=root or you should change the username and password 
+in src/main/resources/META-INF/persistence.xml
 
 Step2: mvn package
 
