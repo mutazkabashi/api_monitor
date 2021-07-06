@@ -6,8 +6,13 @@ A Service Poller web application that tracks a list of Rest web services (API) ,
 **Functional Requirements**
 - User could add/update/delete Rest-web services using user interface (web application)
 - Each web service has Url,name,method,status, creationdate, and last modificationDate.
+
+Note :- Webservice (GET) with one parameter is only supported
+
 - User Management module , to add application’s users.
 - Dash board to  display the apis(Rest-web services) status.
+
+Note:- FreeAPI from the follwing web sites (https://apipheny.io/free-api/) has been used to test the functionality of the application
 
 **Technology  Stack**
 - Front-End (UI) Reactjs with hooks and redux.
