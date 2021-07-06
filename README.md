@@ -32,6 +32,8 @@ in src/main/resources/META-INF/persistence.xml
 
 Step2: mvn package
 
+Note :- some Exception stack trace will appear on the console as part of running test to check Exception handling
+
 A new file with the name of "api-monitor-1.0.0-fat.jar" will be created inside target folder.
 
 Step3: java -jar -Dvertx.options.maxEventLoopExecuteTime=20000000000  target/api-monitor-1.0.0-fat.jar
@@ -39,6 +41,7 @@ Step3: java -jar -Dvertx.options.maxEventLoopExecuteTime=20000000000  target/api
 
 _________________________________________________________________________
 **Create User/signup**
+
 1- type the following URL in web broswer (http://localhost:8080/signup)
   fill in all the fields of the signup form and click on signup button
   then you will be directed to login page (http://localhost:8080/login)
@@ -49,6 +52,8 @@ _________________________________________________________________________
     (http://localhost:8080/display-as-list)
  
  4- add web service(s).
+ 
+   Note You should select Http or Https from select service menu, and website field should conatin the url without protocol (wihtout http or https)
  
  5- click on dashboard on the top menu on the screen or type the following URL
   on the browser (http://localhost:8080/dashboard)    
