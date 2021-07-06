@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+Array [
+  <Card
+    body={false}
+    className="text-center"
+    style={
+      Object {
+        "backgroundColor": "#007bff",
+        "bottom": "0",
+        "color": "white",
+        "left": "0",
+        "position": "fixed",
+        "textAlign": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <CardHeader>
+      API Monitor © 2021-22
+    </CardHeader>
+  </Card>,
+]
+`;
