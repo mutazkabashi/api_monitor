@@ -31,7 +31,7 @@ export default function MainPage() {
 
         <Switch>
           <Route exact path="/">
-            <Dashboard />
+            <ProfileView />
           </Route>
 
           <Route exact path="/dashboard">
