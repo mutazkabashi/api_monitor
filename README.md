@@ -50,6 +50,8 @@ _________________________________________________________________________
  
  4- add web service(s).
  
+   Note You should select Http or Https from select service menu, and website field should conatin the url without protocol (wihtout http or https)
+ 
  5- click on dashboard on the top menu on the screen or type the following URL
   on the browser (http://localhost:8080/dashboard)    
 
