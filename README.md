@@ -11,7 +11,7 @@ A Service Poller web application that tracks a list of Rest web services (API) ,
 
 **Technology  Stack**
 - Front-End (UI) Reactjs with hooks and redux.
-- JAVA 11
+- JAVA 11 
 -Back-End Vert.x (java asynchronous event-driven application framework )
 -ORM Hibernate
 -Database Mysql (production),h2 for testing
