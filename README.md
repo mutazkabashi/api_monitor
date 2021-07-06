@@ -34,7 +34,7 @@ Step2: mvn package
 
 A new file with the name of "api-monitor-1.0.0-fat.jar" will be created inside target folder.
 
-Step3: java -jar target/api-monitor-1.0.0-fat.jar
+Step3: java -jar -Dvertx.options.maxEventLoopExecuteTime=20000000000  target/api-monitor-1.0.0-fat.jar
 
 
 _________________________________________________________________________
