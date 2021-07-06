@@ -22,7 +22,7 @@
 	<logger name="com.mchange.v2" level="warn" />
 	<logger name="io.netty" level="warn" />
 	<logger name="io.vertx" level="info" />
-	<logger name="io.vertx.core.impl.BlockedThreadChecker" level="off" />
+	<logger name="io.vertx.core.impl.BlockedThreadChecker" level="OFF" />
 	<logger name="apimonitor" level="debug" />
 
 	<root level="debug">
